@@ -21,13 +21,13 @@ urlpatterns = [
     path('', admin.site.urls),
     # path('admin/', admin.site.urls),
     path(
-        'api/products/', 
+        'api/products', 
         GetProductsInfoFromAPIView.as_view(),
         name = 'GetProductsInfoFromAPIView',
     ),
 
     path(
-        'api/categories/', 
+        'api/categories', 
         GetCategoriesFromAPIView.as_view(),
         name = 'GetCategoriesFromAPIView',
     )
