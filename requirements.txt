@@ -1,5 +1,5 @@
 python-2.7.18
-Django==2.2.10
+Django==2.2.13
 django-heroku==0.3.0
 djangorestframework==3.11.0
 gunicorn==20.0.4
