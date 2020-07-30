@@ -15,9 +15,10 @@ import traceback
 
 import time
 from django.core.wsgi import get_wsgi_application
+from carauto import settings
 # from whitenoise.django import DjangoWhiteNoise
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', '.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'carauto.settings')
 
 application = get_wsgi_application()
 # application = DjangoWhiteNoise(application)
